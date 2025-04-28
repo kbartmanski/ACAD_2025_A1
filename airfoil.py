@@ -138,7 +138,7 @@ class NacaAirfoil(Airfoil):
         plt.show()
 
     def __repr__(self) -> str:
-        return self.serial_number
+        return str(self.serial_number)
 
 
 if __name__ == "__main__":
